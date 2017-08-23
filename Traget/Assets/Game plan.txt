@@ -1,0 +1,15 @@
+
+ *** Target ***
+
+ TODO List:
+VX1. drag and  drop triangles *from slots*.
+  2. create simple first models.
+VX3. menu and levels --> use XML file for levels information.
+  4. make the board change its scale according to the screen resolution.
+  5. visualize the board...
+
+ Stuff to remember:
+  # currently it's 3d objects. maybe I will change it to 2d.
+  # the ball and the triangles need to have the physics material "Bounce".
+  # the ball sould Not be created inside the canon or else it will disappear.
+  # the Target, the Walls and the Canon sould have the tags "Finish", "Wall" and "Respawn".

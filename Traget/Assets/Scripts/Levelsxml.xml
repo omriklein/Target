@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- We have some levels -->
+<!-- Each level got canon(s), target(s), maximum balls-->
+<!-- The canon(s) and the taget(s) each got positions on the grid-->
+
+<!-- ## Each level must have: number attribute??, Canons with position x,y,z ?and roation?, Max balls...-->
+<!-- THE POSITION 'Z' MUST BE -1 >> Change it in the script (delete the positionZ attribute)-->
+<Levels>
+
+  <Level number="1">
+    <Canon positionX = "-3" positionY = "-3.5" positionZ = "-1">
+    </Canon>
+    <Canon positionX = "2" positionY = "-3.5" positionZ = "-1">
+    </Canon>
+    <Target positionX = "-3" positionY = "3.5" positionZ = "-1">
+    </Target>
+    <Target positionX = "2" positionY = "3.5" positionZ = "-1">
+    </Target>
+  </Level>
+
+  <Level number="2">
+    <Canon positionX = "0" positionY = "0" positionZ = "-1">
+    </Canon>
+    <Target positionX = "-3" positionY = "-3.5" positionZ = "-1">
+    </Target>
+  </Level>
+
+  <Level number="3">
+    <Canon>
+    </Canon>
+    <Target>
+    </Target>
+  </Level>
+</Levels>
