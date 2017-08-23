@@ -36,8 +36,8 @@ public class Triangle : MonoBehaviour
         // Check about the number - 3. if this is good make it a const variable
         // this.transform.position += new Vector3(Input.GetAxis("Mouse X") / 3, Input.GetAxis("Mouse Y") / 3, 0f);
 
-        mouseX += Input.GetAxis("Mouse X") / 3;
-        mouseY += Input.GetAxis("Mouse Y") / 3;
+        mouseX += Input.GetAxis("Mouse X") / (3 * 6); // 3 >> (3 * 6)
+        mouseY += Input.GetAxis("Mouse Y") / (3 * 6);
 
         // The distance from the center of the tile to the end of the "inside area"        = 1/4 Cube size = 0.25
         // The distance from the "inside area" to the outside of the tile                  = 1/4 Cube size = 0.25
