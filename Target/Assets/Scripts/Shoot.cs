@@ -6,7 +6,7 @@ public class Shoot : MonoBehaviour
 {
     public GameObject ballPrefub; // the object we are shooting
     public float speed; // Change to private
-    private const float DISTANCE_FROM_CANON = 1.7f;
+    private const float DISTANCE_FROM_CANON = 1.8f;
 
     //TODO move to the game manager? -- from xml
     // need to be const - sould not be changed
