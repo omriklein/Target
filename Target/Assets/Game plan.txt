@@ -13,3 +13,6 @@ VX3. menu and levels --> use XML file for levels information.
   # the ball and the triangles need to have the physics material "Bounce".
   # the ball sould Not be created inside the canon or else it will disappear.
   # the Target, the Walls and the Canon sould have the tags "Finish", "Wall" and "Respawn".
+  # To Change the tiles size you need to change the TILE_SIZE in the "Triangle" script 
+	and in the "GameManager" change the tile prefub (in the editor) 
+	and in the function 'creadBoard' change the i++/j++ to i+=2/j+=2 (or something else).

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Triangle : MonoBehaviour
 {
-    public float TILE_SIZE = 1; // Change to private const
+    public float TILE_SIZE = 2; // Change to private const
     public Vector3 mousePosition; // Vector3 VS Vector2
 
     public float mouseX = 0, mouseY = 0;

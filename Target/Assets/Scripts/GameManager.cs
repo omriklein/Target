@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        creadBoard(Tile, new Vector3(-4.5f, -4.5f, -1f));
+        creadBoard(Tile, new Vector3(-4f, -4f, -1f) /*new Vector3(-4.5f, -4.5f, -1f)*/);
     }
 
     // Update is called once per frame
@@ -32,11 +32,12 @@ public class GameManager : MonoBehaviour
     private void creadBoard(GameObject tile, Vector3 pos, int height = 10, int width = 10)
     {
 
-        for (int i = 0; i < height; i++)
+        for (int i = 0; i < height; i += 2 /*i++*/)
         {
-            for (int j = 0; j < width; j++)
+            for (int j = 0; j < width; j += 2 /*j++*/)
             {
-                /*GameObject t = */Instantiate<GameObject>(tile, new Vector3(pos.x + j, pos.y + i, 0f), new Quaternion());
+                /*GameObject t = */
+                Instantiate<GameObject>(tile, new Vector3(pos.x + j, pos.y + i, 0f), new Quaternion());
             }
         }
     }
