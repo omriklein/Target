@@ -78,15 +78,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BallScript.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\CreateLevels\Duplicate.cs" />
+    <Compile Include="Assets\Scripts\CreateLevels\GetXml.cs" />
     <Compile Include="Assets\Scripts\GenerateLevel.cs" />
-    <Compile Include="Assets\Scripts\Shoot.cs" />
-    <Compile Include="Assets\Scripts\Triangle.cs" />
+    <Compile Include="Assets\Scripts\Level\BallScript.cs" />
+    <Compile Include="Assets\Scripts\Level\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Level\Shoot.cs" />
+    <Compile Include="Assets\Scripts\Level\Triangle.cs" />
+    <Compile Include="Assets\Scripts\MenuScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Game plan.txt" />
     <None Include="Assets\Scripts\Levelsxml.xml" />
+    <None Include="Assets\Scripts\NewXmlFile.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -6,7 +6,7 @@ public class Shoot : MonoBehaviour
 {
     public GameObject ballPrefub; // the object we are shooting
     public float speed; // Change to private
-    private const float DISTANCE_FROM_CANON = 1.8f;
+    private const float DISTANCE_FROM_CANON = 1.4f;
 
     //TODO move to the game manager? -- from xml
     // need to be const - sould not be changed
@@ -31,7 +31,7 @@ public class Shoot : MonoBehaviour
         {
             GameObject ball = Instantiate<GameObject>(ballPrefub,
                 new Vector3(this.transform.position.x, this.transform.position.y + DISTANCE_FROM_CANON, this.transform.position.z),
-                    this.transform.rotation);
+                    new Quaternion(0f, 0f, 0f, 0f));
             ball.GetComponent<Rigidbody>().AddForce(Vector3.up * speed);
         }
     }

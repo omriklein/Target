@@ -1,0 +1,10 @@
+<Level number="5">
+  <Canon positionX="-2" positionY="-4" positionZ="-1">
+  </Canon>
+  <Target positionX="2.5" positionY="-4" positionZ="-1">
+  </Target>
+  <Triangle positionX="-3" positionY="3" positionZ="-1">
+  </Triangle>
+  <Triangle positionX="-1" positionY="3" positionZ="-1">
+  </Triangle>
+</Level>
